@@ -29,13 +29,3 @@ class Program
                 }
                 else
                 {
-                    Console.WriteLine("You guessed it right!");
-                }   
-            }
-                Console.WriteLine($"You guessed {guessCount} time.");
-                
-                Console.Write("Do you want to play again? ");
-                playAgain = Console.ReadLine();
-        }
-    }
-}
