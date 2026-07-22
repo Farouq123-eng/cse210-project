@@ -47,6 +47,7 @@ class Program
         }
     }
 
+    // Exceeds requirements: this version loads scriptures from a text file and supports multi-verse references.
     static List<Scripture> LoadScriptures(string fileName)
     {
         var list = new List<Scripture>();
